@@ -497,6 +497,11 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1973093812078030831, guid: 8949fbdb4ba64104bb11e2f0e311b46e,
+        type: 3}
+      propertyPath: maxMoveDistance
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8293390555779051565, guid: 8949fbdb4ba64104bb11e2f0e311b46e,
         type: 3}
       propertyPath: m_RootOrder
@@ -505,7 +510,7 @@ PrefabInstance:
     - target: {fileID: 8293390555779051565, guid: 8949fbdb4ba64104bb11e2f0e311b46e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8293390555779051565, guid: 8949fbdb4ba64104bb11e2f0e311b46e,
         type: 3}
@@ -515,7 +520,7 @@ PrefabInstance:
     - target: {fileID: 8293390555779051565, guid: 8949fbdb4ba64104bb11e2f0e311b46e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8293390555779051565, guid: 8949fbdb4ba64104bb11e2f0e311b46e,
         type: 3}
@@ -1086,6 +1091,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33e8b41c18dc37b45ac7f8bd9e62e3bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  unit: {fileID: 1645460847}
 --- !u!4 &1934169783
 Transform:
   m_ObjectHideFlags: 0
@@ -1109,6 +1115,11 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1973093812078030831, guid: 8949fbdb4ba64104bb11e2f0e311b46e,
+        type: 3}
+      propertyPath: maxMoveDistance
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8293390555779051565, guid: 8949fbdb4ba64104bb11e2f0e311b46e,
         type: 3}
       propertyPath: m_RootOrder
