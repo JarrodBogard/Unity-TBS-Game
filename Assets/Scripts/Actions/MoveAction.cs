@@ -3,18 +3,16 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class MoveAction : MonoBehaviour
+public class MoveAction : BaseAction
 {
     [SerializeField] private Animator unitAnimator;
     [SerializeField] private int maxMoveDistance = 4;
 
-    private Unit unit;
     private Vector3 targetPosition;
-    private bool isActive;
 
-    private void Awake()
+    protected override void Awake()
     {
-        unit = GetComponent<Unit>();
+        base.Awake();
         targetPosition = transform.position;
     }
 
@@ -36,7 +34,7 @@ public class MoveAction : MonoBehaviour
             isActive = false;
         }
 
-        float rotateSpeed = 10f;
+        float rotateSpeed = 15f;
         transform.forward = Vector3.Lerp(transform.forward, moveDirection, Time.deltaTime * rotateSpeed);
     }
 
